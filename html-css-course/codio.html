@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preferences</title>
+</head>
+<body style ="background-image:url('https://images.unsplash.com/photo-1682687219800-bba120d709c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+<div style "width:50%; background-color:#FEBBCC; margin : auto;padding:10px;">
+  
+    <form action="process_data.php" method="GET">
+        <label for="genre">What is your genre of music?</label><br>
+        <input type="text" id="genre" name="genre" >
+        <p>  Do you have a pet? </p> 
+        <input type="radio" id="yes" name="Pet" value="Yes" >
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="Pet" value="No">
+        <label for="no">No</label> <br><br>
+
+        <label for="petName">What is your pet's name?</label>
+        <input type="text" id="petName" name="petName" required><br><br>
+        <label for="favoriteSport">What is your favorite sport?</label>
+        <select id="favoriteSport" name="favoriteSport" required>
+            <option value="">-- Select an option --</option>
+            <option value="vollyball">Football</option>
+            <option value="Basetball">Basketball</option>
+            <option value="Soccer">Soccer</option>
+            <option value="Tennis">Tennis</option>
+            <option value="Badminton">Baseball</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

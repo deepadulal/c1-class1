@@ -1,0 +1,29 @@
+.grid{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    grid-gap:10px;
+    
+  
+  }
+  p{text-align: center;}
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+    background-color:blueviolet;
+    font-size: 15px;
+    padding: 1px;
+  
+    
+  }
+  .artist-img{
+    max-width: 75%;
+    max-height: 50%;
+    display: block;
+    margin-inline:auto;
+    padding-bottom:10px;
+    box-shadow: 10px 5px;
+    padding-top: 10px;
+  
+  }
